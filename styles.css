@@ -1,4 +1,24 @@
-.px-2 {
-  padding-left: ($spacer * .5) !important;
-  padding-right: ($spacer * .5) !important;
+/* styles for alex.html underneath*/
+
+.bg-image-right{
+  background-image: url("resources/right-side.jpg");
+  filter: blur(6px);
+
+  height: 1120px;
+  width: 270px;
+  float: right;
+
+  background-attachment: fixed;
+
+}
+
+.bg-image-left{
+  background-image: url("resources/left-side.jpg");
+  filter: blur(6px);
+
+  height: 1120px;
+  width: 270px;
+  float: left;
+
+  background-attachment: fixed;
 }
