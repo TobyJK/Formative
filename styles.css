@@ -1,14 +1,16 @@
 /* styles for alex.html underneath*/
 
+.site-content
+{
+  background-color:rgb(189, 227, 241)
+}
+
 .bg-image-right{
   background-image: url("resources/right-side.jpg");
   filter: blur(6px);
 
   height: 1120px;
   width: 270px;
-  float: right;
-
-  background-attachment: fixed;
 
 }
 
@@ -18,8 +20,25 @@
 
   height: 1120px;
   width: 270px;
-  float: left;
-
-  background-attachment: fixed;
 }
 
+.main-content
+{
+  z-index: 2;
+  background-color:rgba(189, 227, 241,0.7);
+  color: white;
+  border: 1px solid rgba(189, 227, 241,0.9);
+
+}
+
+.bg-image{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  background-image: url("resources/server-room.jpg");
+  width: 2000px;
+  height: 1124px;
+  filter: blur(6px);
+}
