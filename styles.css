@@ -22,7 +22,7 @@
 
 .main-content {
   z-index: 2;
-  background-color: rgba(189, 227, 241, 0.7);
+  background-color: rgba(189, 227, 241, 0.8);
   color: white;
   border: 1px solid rgba(189, 227, 241, 0.9);
 
@@ -38,6 +38,18 @@
   width: 2000px;
   height: 1124px;
   filter: blur(6px);
+}
+
+.bg-image-index {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -99;
+  display: block;
+  background-image: url("resources/index.jpg");
+  width: 2000px;
+  height: 1124px;
+  filter: blur(3px);
 }
 
 img{
