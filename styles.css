@@ -35,7 +35,7 @@
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: -99;
   display: block;
   background-image: url("resources/server-room.jpg");
   width: 2000px;
