@@ -47,8 +47,9 @@
   z-index: -99;
   display: block;
   background-image: url("resources/FWBG.png");
-  width: 4000px;
-  height: 2248px;
+  background-size: 100% 100%;
+  width: 1624px;
+  height: 724px;
   filter: blur(6px);
 }
 
