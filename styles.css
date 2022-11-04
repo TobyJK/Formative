@@ -62,3 +62,15 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+
+.bg-image-toby {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -99;
+  display: block;
+  background-image: url("resources/machineLearning.jpg");
+  width: 2000px;
+  height: 1124px;
+  filter: blur(5px);
+}
