@@ -40,6 +40,18 @@
   filter: blur(6px);
 }
 
+.bg-image-Nathan{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -99;
+  display: block;
+  background-image: url("resources/FWBG.png");
+  width: 4000px;
+  height: 2248px;
+  filter: blur(6px);
+}
+
 .bg-image-index {
   position: fixed;
   left: 0;
