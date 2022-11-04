@@ -3,9 +3,7 @@
 - Good evidence of research
 - Footnotes are a nice touch
 
-
 # Even Better If
-- Close html tag at end of page
 - Photo credits, if they have free licences it is polite to mention
 - Open links in a different page using target="_blank" in href tag
 - Hard to read white text on light blue background and predominantly grey background photo
