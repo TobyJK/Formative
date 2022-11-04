@@ -53,6 +53,19 @@
   filter: blur(6px);
 }
 
+.bg-image-adam {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -99;
+  display: block;
+  background-image: url("resources/contactlessBackground.jpeg");
+  background-size: 100% auto;
+  width: 2000px;
+  height: 1124px;
+  filter: blur(6px);
+}
+
 .bg-image-index {
   position: fixed;
   left: 0;
